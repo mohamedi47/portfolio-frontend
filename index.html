@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title> My_Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;1,300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="nav">
+    <div class="nav-logo">AM</div>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="about">
+    <div class="hero-bg-text">PORTFOLIO</div>
+    <div class="hero-content">
+      <div class="hero-tag">Cloud Computing <marquee><p>EASTC/BDTS/24/01019</p></marquee></div>
+      <h1 class="hero-name">Mohamed <br><span> hassan bakari</span></h1>
+      <p class="hero-bio">
+        Final-year Bachelor Degree of Data science  student passionate about building scalable
+        cloud-native applications.
+      </p>
+      <div class="hero-cta">
+        <a href="#projects" class="btn-primary">View Projects</a>
+        <a href="#contact" class="btn-ghost">Get In Touch</a>
+      </div>
+    </div>
+    <div class="hero-badge">
+      <div class="badge-ring">
+        <span>Hi welcome to my portfolio </span>
+      </div>
+      <div class="badge-dot"></div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="skills" id="skills">
+    <div class="section-label">What I Know
+</div>
+    <h2 class="section-title">Skills &amp; Stack</h2>
+    <div class="skills-grid" id="skills-grid">
+      <!-- populated by JS via API -->
+      <div class="skill-loading">
+    <ul>
+            <li>Data Analysis</li>
+            <li>Machine Learning </li>
+             <li>Maintanace and troubleshooting </li>
+             <li>Data preparition and Evalution  </li>
+              <li>Excel and PowerBI visualization </li>
+             
+          </ul>
+</div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section class="projects" id="projects">
+    <div class="section-label">What I've Built</div>
+    <h2 class="section-title">Projects</h2>
+    <div class="projects-grid" id="projects-grid">
+      <div class="skill-loading"><ul>
+            <li>AI Food recommendation system</li>
+            <li>Currency price prediction </li>
+             <li>Data Analysis </li>
+              <li>Report Analysis Agent </li>
+    </div>
+  </section>
+
+  <!-- QUALIFICATIONS -->
+  <section class="qualifications" id="qualifications">
+    <div class="section-label">Education</div>
+    <h2 class="section-title">Qualifications</h2>
+    <div class="timeline">
+      <div class="timeline-item reveal">
+        <div class="timeline-year">2024 – 2026</div>
+        <div class="timeline-body">
+          <h3>BDTS Data Science</h3>
+          <p>EASTERN AFRICA STATISTICS AND TRAINING CENTRE, Expected Graduation: December 2026</p>
+          <ul>
+            <li>Data Analysis</li>
+            <li>Machine Learning </li>
+             <li>Maintainance and troubleshooting </li>
+             
+          </ul>
+        </div>
+      </div>
+      <div class="timeline-item reveal">
+        <div class="timeline-year">2023</div>
+        <div class="timeline-body">
+          <h3>Forage platform</h3>
+          <p>Credit card Analyst · Certificate by forage platform</p>
+        </div>
+      </div>
+      <div class="timeline-item reveal">
+        <div class="timeline-year">2021 - 2023</div>
+        <div class="timeline-body">
+          <h3>Ordinary diploma at IFM</h3>
+          <p>Computer science certificate</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact" id="contact">
+    <div class="section-label">Say Hello</div>
+    <h2 class="section-title">Get In Touch</h2>
+    <div class="contact-grid">
+      <div class="contact-info">
+        <div class="contact-item">
+          <span class="ci-label">Email</span>
+          <a href="mailto:alex.mwangi@email.com">mohassan4747@gmail.com</a>
+        </div>
+        <div class="contact-item">
+          <span class="ci-label">LinkedIn</span>
+          <a href="www.linkedin.com/in/mohamed-hassan-670b52203">www.linkedin.com/in/mohamed-hassan-670b52203</a>
+        </div>
+        <div class="contact-item">
+          <span class="ci-label">GitHub</span>
+          <a href="https://github.com/mohamedi47/mohamedi47.git">github.com/Mohamed</a>
+        </div>
+        <div class="contact-item">
+          <span class="ci-label">Location</span>
+          <span>Dar es Salaam, Tanzania</span>
+        </div>
+      </div>
+      <form class="contact-form" id="contact-form">
+        <input type="text" placeholder="Your Name" required />
+        <input type="email" placeholder="Your Email" required />
+        <textarea placeholder="Your Message" rows="4" required></textarea>
+        <button type="submit" class="btn-primary">Send Message</button>
+        <p class="form-status" id="form-status"></p>
+      </form>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>© 2026 EASTC/BDTS/24/01019· Built with HTML/CSS/JS · Hosted on Vercel</p>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
