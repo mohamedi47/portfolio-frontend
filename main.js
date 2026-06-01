@@ -1,7 +1,7 @@
 // =============================================
 // CONFIG — Update this URL after deploying to Render
 // =============================================
-const API_BASE = "https://portfolio-api.onrender.com"; // ← Replace with your Render URL
+const API_BASE = "https://portfolio-backend-scl8.onrender.com"; // ← Replace with your Render URL
 
 // =============================================
 // Fetch & Render Skills
